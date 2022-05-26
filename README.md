@@ -65,3 +65,17 @@
 `ls -a` - list All Files (hidden included) Hidden Files start with Dot (.) --> e.g: .ssh
 
 `ls -laht` - list All Files (hidden included) and sort Last Modified time and with Human readable with Long List Format
+
+`ln` - create a hard link
+
+`ln -s` - create a symbolic (Soft) link (the same as Shortcuts in Windows)
+
+Hard links Vs Symbolic links
+
+Trong hệ thống file Linux, một liên kết (link) là một kết nối giữa file name và dữ liệu thực tế trên disk.
+Có hai loại liên kết chính có thể được tạo: "hard" links, và "soft" hay symbolic links. Trước khi tìm hiểu về hard links và symbolic links, có một khái niệm khác cần hiểu rõ là “inode” - một khái niệm cơ bản trong Linux filesystem. Mỗi đối tượng của filesystem được đại diện bởi một inode.
+
+What is inode ?
+
+Trong Linux, dữ liệu của các file được chia thành các block. Có nhiều cách tổ chức để liên kết các khối dữ liệu trong một file với nhau, một trong các cách đó là dùng chỉ mục (indexed allocation).
+<img src = "https://images.viblo.asia/bed26257-9800-43b5-871f-acda88c5658d.gif"/>
