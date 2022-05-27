@@ -33,3 +33,17 @@ CI là viết tắt của ***Continuous Integration***
 
 CD là viết tắt của ***Continuous Delivery***
 + ***Continuous Delivery*** là chuyển giao liên tục, là 1 tập hợp các kỹ thuật để triển khai tích hợp souce code trên môi trường **staging** ( một môi trường rất giống với môi trường **production**).
+
+### Installation
+```bash
+$ sudo apt update
+$ sudo apt install openjdk-8-jdk openjdk-8-jre
+$ sudo vim /etc/environment
+$ sudo source /etc/environment
+$ wget -q -O - https://pkg.jenkins.io/debian-stable/jenkins.io.key | sudo apt-key add -
+$ sudo sh -c 'echo deb https://pkg.jenkins.io/debian-stable binary/ > /etc/apt/sources.list.d/jenkins.list'
+$ sudo apt update
+$ sudo apt install jenkins
+$ sudo systemctl start jenkins
+$ sudo systemctl status jenkins
+```
