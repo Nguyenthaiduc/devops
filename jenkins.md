@@ -13,6 +13,10 @@ Nó tích hợp các source code của các members trong team lại nhanh chón
 <p align = "center">
   <a href="https://www.linux.org/" target="blank"><img src="https://topdev.vn/blog/wp-content/uploads/2019/05/CICD.png"  alt="Jenkins Logo" width="750"/></a>
 </p>
+<p align = "center">
+  <a href="https://www.linux.org/" target="blank"><img src="https://raw.githubusercontent.com/bregman-arie/devops-resources/master/images/jenkins_map.png"  alt="Jenkins Logo" width="750"/></a>
+</p>
+
 
 CI là viết tắt của ***Continuous Integration***
 + Là tích hợp liên tục, nhằm liên tục tích hợp các source code của các thành viên trong team lại một cách nhanh chóng.

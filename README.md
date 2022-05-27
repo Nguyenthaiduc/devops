@@ -1,6 +1,6 @@
 ### Linux, Unix Basics
-<div style = "display:flex;">
-<div display="flex">
+<div>
+<div>
 <p>
   <a href="https://www.linux.org/" target="blank"><img src="https://upload.wikimedia.org/wikipedia/commons/b/b2/Logo_c%E1%BB%A7a_H%C4%90H_VNux_GNU-Linux.svg" width="60" alt="Linux Logo" /></a>
 </p>
