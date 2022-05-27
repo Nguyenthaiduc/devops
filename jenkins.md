@@ -1,5 +1,5 @@
 <p align = "center">
-  <a href="https://www.linux.org/" target="blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Jenkins_logo.svg/1200px-Jenkins_logo.svg.png" width="200" alt="Linux Logo" /></a>
+  <a href="https://www.jenkins.io" target="blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Jenkins_logo.svg/1200px-Jenkins_logo.svg.png" width="200" alt="Linux Logo" /></a>
 </p>
 
 
