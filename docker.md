@@ -39,5 +39,27 @@
 - In ra Log của Docker
 `docker logs mynginx `
 `docker run -d -p 8080:80 --name mynginx -v "<path>":/usr/share/nginx/html -v "<path>":/var/log/nginx nginx`
+- build Docker
+`docker build -t my_nginx .`
+
+- Cách up lên Docker hub
+`docker tag my_nginx_vietnam <username>/my_nginx_vietnam:5.7.21` sau : tag 
+`docker push <username>/my"_nginx_vietnam:5.7.21 `
+- <-> Git Clone
+`docker pull  <username>/my"_nginx_vietnam:5.7.21 `
+
+`-t` 
+- không bị Exit ra
+`docker-compose.yml deploy`
+- version: '3'
+```bash
+version: '3'
+
+services:
+  my-node-img-2:
+    build:
+      context:
+```
+
 
 

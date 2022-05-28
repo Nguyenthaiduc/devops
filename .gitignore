@@ -1,5 +1,6 @@
 # folder
-docker/
+docker/*.png
 docker/**
 docker
+
 
