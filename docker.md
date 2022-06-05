@@ -3,6 +3,9 @@
   <a href="https://www.jenkins.io" target="blank"><img src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Docker_%28container_engine%29_logo.svg" width="200" alt="Docker" /></a>
 </p>
 
+
+
+
 - Download gì đó xuống ở Hub ->  Docker pull <-> Git clone
 `docker pull nginx`
 ***nginx*** download server
