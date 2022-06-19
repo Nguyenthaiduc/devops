@@ -101,10 +101,44 @@ Lọc và tìm kiếm
 - cat concat.html | grep <keyword search>
 Hard links Vs Symbolic links
 
+***Copy***
+Lệnh cp (copy file):
+- cp demo.html new_folder/  -> copy
+- cp demo.html new_folder/demo2.html  copy -> doi ten
+- cp -r , copy ca thu muc
+
++ Dể copy file sang một file mới gõ lệnh : cp + file cần copy + tên file mới
++ Copy sang thư mục khác : cp + file cần copy + tên thư mục
++ Copy đổi tên file : cp + file cần copy + tên thư mục/ tên file mới
++ Copy từ root: cp + /tên thư mục/tên file cần copy + /tên thư mục cần di chuyển/tên file (nếu đổi tên)
++ Copy thư mục : cp + -r + thư mục muốn copy + tên thư mục mới
++ Khi đứng ở root copy có thông báo Permission denied ta cần quyền admin lớn nhất hãy thêm lệnh sudo + cp + tên file cần copy + tên file mới
++7:38 Di chuyển file đồng thời đổi tên file cũ thành file mới
+file cũ sau khi đổi, tên file cũ sẽ không còn tòn tại.
++ Gõ lệnh : mv + file cần move + tên file mới
++ Chuyển file sang thư mục khác : mv + file cần move + tên thư mục/tên file mới nếu đổi tên
++ Chuyển thư mục sang thư mục khác : mv + tên thư mục cần chuyển + tên thư mục/tên thư mục mới nếu cần đổi tên
++ Lệnh remove có thể xóa bằng cách gõ lệnh : rm + tên file
++ Nếu muốn xóa nhiểu file cũng 1 lúc ta có thể xóa bằng các : rm + tên file + tên file
++ Nếu không muốn gõ tên file ta có thể : ls danh sách các file trong thư mục đó sẽ hiện ra, sau đó gó lệnh rm và bôi đen file cần xóa click chuột phải để copy file cần xóa, sau đó enter.
++ Xóa toàn bộ thư mục cùng file bên trong: rm + -r + tên thư mục
++ Xóa file từ thư mục root nhưng cần quyền admin gõ lệnh: sudo + rm + folder/tên file
+
++  Gõ lệnh: rmdir + tên thư mục
++ Lệnh này chỉ có thể xóa thư mục rỗng bên trong không có file nếu có file sẽ không xóa được, lệnh này có thể được dùng để xóa thư mục hàng loạt nhưng không xóa thư mục có file
+Thu nhỏ
+
 Trong hệ thống file Linux, một liên kết (link) là một kết nối giữa file name và dữ liệu thực tế trên disk.
 Có hai loại liên kết chính có thể được tạo: "hard" links, và "soft" hay symbolic links. Trước khi tìm hiểu về hard links và symbolic links, có một khái niệm khác cần hiểu rõ là “inode” - một khái niệm cơ bản trong Linux filesystem. Mỗi đối tượng của filesystem được đại diện bởi một inode.
 
+***Move***
+mv , di chuyển và đỏi file 
 What is inode ?
+
+***Remove***
+`rm` -> xóa file
+`rm -r` xóa cả file thu muc
+`rmdir` xóa thư mục trống
 
 Trong Linux, dữ liệu của các file được chia thành các block. Có nhiều cách tổ chức để liên kết các khối dữ liệu trong một file với nhau, một trong các cách đó là dùng chỉ mục (indexed allocation).
 <img src = "https://images.viblo.asia/bed26257-9800-43b5-871f-acda88c5658d.gif"/>
