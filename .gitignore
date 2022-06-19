@@ -3,5 +3,6 @@ docker/*.png
 docker/**
 docker
 ./docker/**
+./docker/
 
 

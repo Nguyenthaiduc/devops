@@ -70,6 +70,35 @@
 
 `ln -s` - create a symbolic (Soft) link (the same as Shortcuts in Windows)
 
+**Vim**
+
+`q` : exit not save
+`q!`: exit and save
+`:w` - Save fileName,
+`:wq` - Save and exit
+`:x` - Save and exit
+
+
+***Cat***
+Xem nội dụng của file , và ghép nội dung của file
+
+Ghép file -> cat demo1.html demo2.html > newfile.html
+
+***Echo***
+`echo` -> in ra 
+- echo "Hello World" -> Hello World
+- echo "<h3>Hello Echo</h3>" > echo.html
+- echo "<h1>Hello Echo</h1>" >> echo.html -> khong ghi de
+
+***Tail***
+- Xem dòng cuối của 1 file
+- tail concat.html
+- tail -n 10 demo.html
+- tail -f demo.html
+
+***Grep***
+Lọc và tìm kiếm
+- cat concat.html | grep <keyword search>
 Hard links Vs Symbolic links
 
 Trong hệ thống file Linux, một liên kết (link) là một kết nối giữa file name và dữ liệu thực tế trên disk.
