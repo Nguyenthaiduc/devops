@@ -5,6 +5,7 @@ docker
 ./docker/**
 ./docker/
 **/docker/
-/docker
+!docker/*.md
+docker/*.md
 
 
