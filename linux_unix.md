@@ -140,5 +140,59 @@ What is inode ?
 `rm -r` xóa cả file thu muc
 `rmdir` xóa thư mục trống
 
+***Chmod***
+- u -> User
+- g -> Group
+- o -> Other
+- a -> All
+
+- **phân quyền**
+- r -> Read
+- w -> Write
+- x -> Execute
+
++ - =
+- sudo chmod o-w filename -> file nay co quyen write and Other 
+- sudo chmod u=rwx, g=rx, o=r filename
+Permission 0 -> 7
+-
+- `4` - Read 
+- `2` - write
+- `1` - Execute, and
+- `0` no Permission
+
+sudo chmod 777 filename
+sudo chmod 7 5 4 filename
+**Thay đổi chủ sở hữu**
+- sudo chown root run.sh
+
+***Man***
+- tra cứu lệnh dùng như thế nào
+**wget**
+- Trình tải xuống qua mạng
+
+***Apt***
+- trình quản lí thư viện ubuntu
+
+***Kill***
+- Kết thúc 1 tiến trình
+- kill uid
+- kill -9 uid -> tat ngay lap tuc
+***ping***
+- kiểm tra tốc độ sercer
+- ping google.com
+***Uname***
+- Xem Kernal 
+***Passwd***
+- đổi mật khẩu
+***Top***
+- Similar Task Manager in Window
+***Df***
+- Kiểm tra ổ cứng Disk Free
+- Kiểm tra ổ cứng , phân vùng
+- df -h
+***Free***
+- Kiểm tra RAM và Wrap
+- dh -h
 Trong Linux, dữ liệu của các file được chia thành các block. Có nhiều cách tổ chức để liên kết các khối dữ liệu trong một file với nhau, một trong các cách đó là dùng chỉ mục (indexed allocation).
 <img src = "https://images.viblo.asia/bed26257-9800-43b5-871f-acda88c5658d.gif"/>
