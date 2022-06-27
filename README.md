@@ -21,6 +21,7 @@
 
 - Docker [Read](https://github.com/Nguyenthaiduc/devops/blob/main/docker/docker.md)
 - Docker [Learn](https://github.com/Nguyenthaiduc/devops/blob/main/docker/README.md)
+- Docker [Learn](https://github.com/Nguyenthaiduc/devops/blob/main/docker.md)
 </div>
 
 </div>
